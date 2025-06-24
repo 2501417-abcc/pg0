@@ -1,0 +1,78 @@
+body {
+margin: 0;
+}
+
+
+#syoukai-nav{
+        background-color: #00fa9a;
+        width: 100%;
+        padding: 10px;
+        position: absolute;top: 10px;
+        place-items:center;
+}
+#syoukai-nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+#syoukai-nav a{
+    background-color: #06567d;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    
+}
+#syoukai-nav a:hover{
+    background-color: #0099FF;
+    color: #000000;
+}
+#jiko {
+    height: 30%;
+    width: 30%;
+    display: block;
+    margin: auto;
+}     
+#kiminonawa{
+    height: 30%;
+    width: 30%;
+    display: block;
+    margin: auto;
+
+}
+
+
+#onnsenn{
+    height: 30%;
+    width: 30%;
+    display: block;
+    margin: auto;
+
+
+}
+#imadamio{
+    height: 30%;
+    width: 30%;
+    display: block;
+    margin: auto;
+
+}
+#koizora{
+    height: 30%;
+    width: 30%;
+    display: block;
+    margin: auto;
+
+}
+#saiai{
+    height: 30%;
+    width: 30%;
+    display: block;
+    margin: auto;
+
+}
+h2{
+    padding: 20%;
+}
