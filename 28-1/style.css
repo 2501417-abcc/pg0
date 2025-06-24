@@ -1,62 +1,65 @@
 body {
 margin: 0;
+padding: 0;
 }
-
-
+.sidediv{
+    position:fixed;
+    left: 0;
+    width: 15%;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: greenyellow;
+    padding: 10px;
+}
 #syoukai-nav{
-        background-color: #00fa9a;
-        width: 100%;
-        padding: 10px;
-        position: absolute;top: 10px;
-        place-items:center;
+    position:fixed;
+    left: 0;
+    width: 15%;
+    box-sizing: border-box;
+    height: 100%;
+    background-color:greenyellow;
+    padding: 10px;
 }
 #syoukai-nav ul{
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
 }
-#syoukai-nav a{
-    background-color: #06567d;
-    color: #FFFFFF;
-    text-decoration: none;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 10px;
-    
+#syoukai-nav  ul li{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
-#syoukai-nav a:hover{
-    background-color: #0099FF;
-    color: #000000;
+#syoukai-nav  ul li:hover{
+    background-color: #8b0000;
 }
+#syoukai-nav  ul li a{
+    color: white;
+     text-decoration: none;
+}
+
+
+
 #jiko {
-    height: 30%;
-    width: 30%;
-    display: block;
-    margin: auto;
+    
+    width: 500px;
+    
 }     
 #kiminonawa{
-    height: 30%;
-    width: 30%;
-    display: block;
-    margin: auto;
-
+    
+    width: 500px;
+    
 }
 
 
 #onnsenn{
-    height: 30%;
-    width: 30%;
-    display: block;
-    margin: auto;
+    width: 500px;
 
 
 }
 #imadamio{
-    height: 30%;
-    width: 30%;
-    display: block;
-    margin: auto;
+    width: 500px;
 
 }
 #koizora{
@@ -67,12 +70,25 @@ margin: 0;
 
 }
 #saiai{
-    height: 30%;
-    width: 30%;
-    display: block;
-    margin: auto;
-
+    height: 10%;
+    width: 10%;
+  
 }
-h2{
-    padding: 20%;
+
+.contentdiv{
+    margin-left: 15%;
+    width: 85%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+img{
+    width: 500px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+    font-size: 0.8em;
+    color: #666;
 }
