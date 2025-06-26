@@ -1,6 +1,7 @@
 body {
 margin: 0;
 padding: 0;
+
 }
 .sidediv{
     position:fixed;
@@ -32,7 +33,7 @@ padding: 0;
     border-radius: 5px;
 }
 #syoukai-nav  ul li:hover{
-    background-color: #8b0000;
+    background-color: #006040;
 }
 #syoukai-nav  ul li a{
     color: white;
@@ -91,4 +92,26 @@ footer {
     border-top: 1px solid #ccc;
     font-size: 0.8em;
     color: #666;
+}
+footer a {
+    color: #3897f0; 
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+img {
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
